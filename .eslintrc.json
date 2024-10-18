@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off" // Only if you are using React 17+
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
