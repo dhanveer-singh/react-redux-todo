@@ -38,7 +38,7 @@ const Todos = () => {
         />
 
         <ul className="mt-4">
-          <li className="text-3xl text-gray-900 dark:text-white">Mine Todos</li>
+          <li className="text-2xl font-bold text-gray-900 dark:text-white">Mine Todos</li>
           {todos.length > 0 ? (
             todos.map((todo) => (
               <li
@@ -71,7 +71,7 @@ const Todos = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      class="size-6"
+                      className="size-6"
                     >
                       <path
                         strokeLinecap="round"
@@ -91,7 +91,7 @@ const Todos = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      class="size-6"
+                      className="size-6"
                     >
                       <path
                         strokeLinecap="round"
@@ -104,7 +104,7 @@ const Todos = () => {
               </li>
             ))
           ) : (
-            <li className="text-2xl text-gray-800 mt-4 text-center bg-green-300 rounded">
+            <li className="text-md font-medium text-gray-800 mt-4 text-center bg-green-300 rounded px-4 py-2">
               Enjoy! You have no todos yet.
             </li>
           )}
