@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addTodo } from '@/features/todo/todoSlice';
 
@@ -38,7 +38,7 @@ const AddTodo = ({ editMode = false, initialValue = '', onSave, onCancel }) => {
 
   return (
     <>
-      <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Add Todo</h2>
+      <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Add Todo</h2>
       <form onSubmit={handleSubmit}>
         <div className="relative mt-4">
           <input
